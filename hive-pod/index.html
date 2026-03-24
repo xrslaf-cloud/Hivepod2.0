@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hive Pod &mdash; Mobilität, die einfach funktioniert.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- STICKY HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" rx="12" fill="#007AFF"/>
+                    <path d="M12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18C15.3137 18 18 15.3137 18 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span>Hive Pod</span>
+            </div>
+            <button class="nav-cta fake-door-btn">Jetzt testen</button>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section">
+        <div class="container hero-content reveal">
+            <h1 class="hero-headline">Mobilität, die einfach funktioniert.</h1>
+            <p class="hero-subheadline">Keine Verträge. Keine versteckten Kosten. Kein Stress.</p>
+            <button class="cta-button primary-btn fake-door-btn">Jetzt ausprobieren</button>
+        </div>
+        <div class="hero-image-wrapper reveal-scale delay-1">
+            <img src="./img/hero.jpg" alt="Hive Pod auf dem Highway zur Morgendämmerung" class="content-image hero-image">
+            <p class="image-context reveal delay-2">Die Hive Pod Vision: Eine Flotte von intelligent vernetzten Fahrzeugen, die nahtlos in dein Leben integriert sind. Wir nutzen modernste KI, um das Fahren auf den Straßen zukunftssicher und nachhaltig zu gestalten.</p>
+        </div>
+    </section>
+
+    <!-- 2. PROBLEM SECTION (Status Quo) -->
+    <section class="problem-section reveal">
+        <div class="container">
+            <div class="problem-statements">
+                <h2 class="problem-statement delay-1">„Stau kostet Zeit.“</h2>
+                <h2 class="problem-statement delay-2">„ÖPNV ist unzuverlässig.“</h2>
+                <h2 class="problem-statement delay-3">„Carsharing ist kompliziert.“</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ANIMATION SECTION: Großes Verkehrsnetz -->
+    <section class="animation-section">
+        <div class="network-container reveal">
+            <h2 class="network-label">Die Hive Pod Infrastruktur im Vergleich</h2>
+            
+            <div class="highway">
+                <!-- Lane 1: Status Quo (Slow) -->
+                <div class="lane network-lane">
+                    <div class="car-track jitter-track-1">
+                        <!-- Half 1 -->
+                        <div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-grey"></div><div class="car car-red"></div>
+                        <!-- Half 2 -->
+                        <div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-grey"></div><div class="car car-red"></div>
+                    </div>
+                </div>
+
+                <!-- Lane 2: Status Quo (Slow) -->
+                <div class="lane network-lane">
+                    <div class="car-track jitter-track-2">
+                        <div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-grey"></div><div class="car car-red"></div><div class="car car-dark"></div><div class="car car-grey"></div>
+                        <div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-grey"></div><div class="car car-red"></div><div class="car car-dark"></div><div class="car car-grey"></div>
+                    </div>
+                </div>
+
+                <div class="lane-divider neon-divider">
+                    <span>HIVE POD EXPRESS LANE</span>
+                </div>
+
+                <!-- Lane 3: HIVE POD (Fast, smooth) -->
+                <div class="lane pod-lane">
+                    <div class="pod-track smooth-track">
+                        <div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div>
+                        <div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div><div class="pod"></div>
+                    </div>
+                </div>
+
+                <div class="lane-divider neon-divider"></div>
+
+                <!-- Lane 4: Status Quo (Slow) -->
+                <div class="lane network-lane">
+                    <div class="car-track jitter-track-3">
+                        <div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div>
+                        <div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div>
+                    </div>
+                </div>
+
+                <!-- Lane 5: Status Quo (Slow) -->
+                <div class="lane network-lane">
+                    <div class="car-track jitter-track-4">
+                        <div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div>
+                        <div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div><div class="car car-dark"></div><div class="car car-red"></div><div class="car car-grey"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. LÖSUNG: HIVE POD -->
+    <section class="solution-section">
+        <div class="container">
+            <h2 class="section-title reveal">Die Zukunft gehört dir.<br>Nur ohne die Verantwortung.</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal delay-1">
+                    <div class="feature-icon">
+                        <!-- Minimal SVG Icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+                    </div>
+                    <h3>Einsteigen statt unterschreiben</h3>
+                    <p>Biometrischer Zugang, absolut keine Bürokratie. Dein Smartphone und dein Gesicht genügen.</p>
+                </div>
+                <div class="feature-card reveal delay-2">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                    </div>
+                    <h3>Passt sich dir an</h3>
+                    <p>Smartes Interior für Business, Alltag & Sport. Wir rücken Komfort ins Zentrum der Konstruktion.</p>
+                </div>
+                <div class="feature-card reveal delay-3">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Fährt intelligent</h3>
+                    <p>Vernetzte Pods und maximale Sicherheit auf jeder Fahrt, völlig autonom und umweltfreundlich.</p>
+                </div>
+                <div class="feature-card reveal delay-4">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg>
+                    </div>
+                    <h3>Kein Stau mehr</h3>
+                    <p>Optimierte Routen dank eigener Infrastruktur. Mit Priority-Lanes fährst du am Stau vorbei.</p>
+                </div>
+            </div>
+            
+            <div class="reveal-scale delay-2">
+                <img src="./img/solution.jpg" alt="Hive Pod Infrastruktur im Stadtzentrum" class="content-image feature-image">
+                <p class="image-context reveal delay-3">Effizienz neu gedacht: Dedizierte Hive Pod Trassen entlasten den städtischen Raum und generieren ein vollkommen fließendes Verkehrsnetz. Schluss mit Stop-and-Go.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. LIFESTYLE SECTION -->
+    <section class="lifestyle-section">
+        <div class="container">
+            <div class="lifestyle-content reveal">
+                <h2 class="section-title">Dein Tag. Dein Pod.</h2>
+                <p class="lifestyle-text">Triff Lukas. Pendler, Sportler, Genießer. Er nutzt seinen Hive Pod morgens als fahrendes Büro und abends für den entspannten Trip zum Gym im Vorort. Ein Fahrzeug, das sich seinem flexiblen Leben anpasst – nicht umgekehrt.</p>
+            </div>
+            <div class="reveal-scale delay-1">
+                <img src="./img/lifestyle.jpg" alt="Sportler steigt smart in seinen Hive Pod ein" class="content-image lifestyle-image">
+                <p class="image-context reveal delay-2">Nahtlose Integration deines Alltags: Ein unsichtbarer Bodyscan beim Einstieg öffnet deinen Pod verschleißfrei. Dein persönliches Cloud-Profil lädt im Bruchteil einer Sekunde exakt deine Wohlfühltemperatur, ergonomische Sitzposition und dein Lieblings-Hörbuch.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PREISMODELLE -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title reveal">Einfach. Transparent. Fair.</h2>
+            <div class="pricing-grid">
+                
+                <!-- Card 1 -->
+                <div class="pricing-card reveal delay-1">
+                    <h3 class="plan-name">Teilhaberschaft</h3>
+                    <div class="plan-price">89 €<span>/Monat</span></div>
+                    <ul class="plan-features">
+                        <li>Fester Basiszugang</li>
+                        <li>Pay-per-Ride abgerechnet</li>
+                        <li>Kein Setup-Fee</li>
+                    </ul>
+                    <button class="cta-button outline-btn fake-door-btn">Jetzt starten</button>
+                </div>
+
+                <!-- Card 2 (Highlighted) -->
+                <div class="pricing-card highlighted reveal-scale delay-2">
+                    <div class="badge">Beliebteste Wahl</div>
+                    <h3 class="plan-name">Monatsabo</h3>
+                    <div class="plan-price">299 €<span>/Monat</span></div>
+                    <ul class="plan-features">
+                        <li>Unbegrenzte Fahrten</li>
+                        <li>Priorisierter Zugang</li>
+                        <li>Inklusive Strom & Reinigung</li>
+                    </ul>
+                    <button class="cta-button primary-btn fake-door-btn">Jetzt starten</button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="pricing-card reveal delay-3">
+                    <h3 class="plan-name">Eigentum</h3>
+                    <div class="plan-price">39.000 €<span>/Einmalig</span></div>
+                    <ul class="plan-features">
+                        <li>Dein persönlicher Pod</li>
+                        <li>Vollständige Anpassung</li>
+                        <li>Exklusiver Park-Service</li>
+                    </ul>
+                    <button class="cta-button outline-btn fake-door-btn">Jetzt starten</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FINALER CTA -->
+    <section class="final-cta-section reveal delay-1">
+        <div class="container">
+            <h2 class="final-headline">Mobilität ohne Kompromisse.</h2>
+            <p class="final-subheadline">Einsteigen. Losfahren. Fertig.</p>
+            <button class="cta-button primary-btn fake-door-btn">Jetzt Zugang sichern</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hive Pod. Alle Rechte vorbehalten. (Fake Door Prototype)</p>
+        </div>
+    </footer>
+
+    <!-- 7. FAKE DOOR POPUP -->
+    <div id="fake-door-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal-btn" aria-label="Schließen">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+            <h2 class="modal-headline">Kurze Frage</h2>
+            <p class="modal-text">Dieses Konzept ist Teil eines Hochschulprojekts. Was überzeugt dich am meisten?</p>
+            
+            <div class="modal-options">
+                <button class="option-btn" data-reason="Preis">Preis</button>
+                <button class="option-btn" data-reason="Flexibilität">Flexibilität</button>
+                <button class="option-btn" data-reason="Komfort">Komfort</button>
+                <button class="option-btn" data-reason="Innovation">Innovation</button>
+            </div>
+
+            <div class="success-message" style="display: none;">
+                <svg viewBox="0 0 24 24" width="48" height="48" stroke="#007AFF" stroke-width="2" fill="none"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke-linecap="round"/></svg>
+                <h3>Vielen Dank!</h3>
+                <p>Deine Antwort hilft uns sehr bei der Weiterentwicklung von Hive Pod.</p>
+                <button class="cta-button primary-btn close-modal-final-btn">Schließen</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
